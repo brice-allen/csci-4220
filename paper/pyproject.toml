@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "summer-final"
+version = "0.1.0"
+description = "Final project for Social Networks and Informatics: CSCI-4220, CU Denver"
+authors = ["bk <briceallen@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.11.0"
+plotly = "^5.3.1"
+scikit-learn = "^1.1.1"
+Pillow = "^9.2.0"
+spotipy = "^2.20.0"
+requests = "^2.28.1"
+secrets = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^4.0.1"
+protobuf ="3.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
