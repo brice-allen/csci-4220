@@ -12,7 +12,7 @@ plotly = "^5.3.1"
 scikit-learn = "^1.1.1"
 Pillow = "^9.3.0"
 spotipy = "^2.22.1"
-requests = "^2.28.1"
+requests = "^2.31.0"
 secrets = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
